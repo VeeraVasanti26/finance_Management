@@ -1,0 +1,5 @@
+{
+  "name": "Finance Dashboard",
+  "description": "A comprehensive MERN stack finance dashboard with role-based access control, financial record management, and summary analytics.",
+  "requestFramePermissions": []
+}
