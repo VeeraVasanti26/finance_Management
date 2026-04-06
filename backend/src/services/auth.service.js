@@ -2,7 +2,7 @@ import User from '../models/user.model.js';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
 import { env } from '../config/env.js';
-import sendEmail from '../utils/sendEmail.js';
+import sendEmail from "../utils/SendEmail.js";
 
 const generateToken = (id) => {
   return jwt.sign({ id }, env.JWT_SECRET, {
