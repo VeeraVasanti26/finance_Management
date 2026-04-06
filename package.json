@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx backend/src/server.js",
     "build": "vite build",
-     "start": "node server.js",
+    "start": "node backend/src/server.js",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
